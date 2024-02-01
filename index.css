@@ -1,0 +1,146 @@
+*{
+    margin: 0px ;
+    padding: 0px ;
+    box-sizing: border-box;
+}
+
+/* navbar */
+#navbarSupportedContent{
+    margin-left: 34.5%;
+}
+
+h4{
+    color: black;
+}
+
+.nav-link{
+    margin-left: 30px;
+}
+
+.dropdown-menu{
+    background-color: rgb(159, 159, 159) !important;
+}
+
+/* navbar response */
+
+@media only screen and (max-width:770px) {
+    .dropdown-menu{
+        margin-right: 50%;
+    }
+}
+
+/* body */
+
+h1{
+    margin: 1.5%;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.main-img{
+    width: 80%;
+    height: 100vh;
+    margin: 10px;
+    background: url('front\ page\ img.png') no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-left: 10%;
+    margin-bottom: 5%;
+}
+
+#home-tiles{
+    margin: 0% 2% 0% 2%;
+}
+
+#ladies-wear , #mens-wear , #demand-wear{
+    height: 250px;
+    width: 100%;
+    position: relative;
+    margin-bottom: 15px;
+    border: 2px solid black;
+    overflow: hidden;
+}
+
+#ladies-wear:hover , #mens-wear:hover , #demand-wear:hover{
+    box-shadow: 2px 3px 6px 2px rgb(102, 91, 91);
+}
+
+#ladies-wear{
+    background: url('front\ page\ main\ img.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+#mens-wear{
+    background: url('font\ mens\ img.webp') no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#demand-wear{
+    background: url('front\ img\ mans.jpg');
+    background-position: center;
+}
+
+#ladies-wear span, #mens-wear span, #demand-wear span{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    background-color: black;
+    color: antiquewhite;
+    opacity: .8;
+}
+
+#ladies-wear span:hover , #mens-wear span:hover , #demand-wear span:hover{
+    box-shadow: 0px 1px 5px 1px rgb(30, 29, 29);
+    background-color: rgb(60, 60, 60);
+}
+
+/* footer */
+
+footer{
+    /* border: 2px solid black; */
+    /* height: 45vh; */
+    width: 95%;
+    /* padding: 10px; */
+    margin-left: 2.5%;
+    /* background-color: rgb(81, 81, 81); */
+}
+
+h2{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 500;
+    background-color: rgb(255, 249, 242);
+    border-radius: 100px;
+}
+
+.users span{
+    color: black;
+    background-color: antiquewhite;
+    border-radius: 30px;
+    padding-left: 8px;
+    padding-right: 8px;
+
+}
+
+.users{
+    /* border: 2px solid black; */
+    height: 200px;
+    width: 100%;
+    color: antiquewhite;
+    background-color: rgb(119, 119, 119);
+    border-radius: 30px;
+    padding: 10px;
+    overflow: hidden;
+    margin: 10px;
+}
+
+.footer{
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 40px;
+}
